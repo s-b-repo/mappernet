@@ -6,16 +6,14 @@ Features:
 
 Usage:
 
-    Install scapy:
-
-pip install scapy
+    pip install scapy pandas openpyxl
 
 Save the script to a file, e.g., network_mapper.py.
 Run the tool:
 
     python map.py -r 192.168.1.0/24 -o results.txt
 
-        -r specifies the IP range to scan (CIDR notation).
+  -r specifies the IP range to scan (CIDR notation).
         -o specifies the output file (default: network_scan.txt).
 
 Output Example:
